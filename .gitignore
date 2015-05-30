@@ -5,6 +5,16 @@ __pycache__/
 # C extensions
 *.so
 
+# CSS files
+css/bootstrap.css
+css/bootstrap.css.map
+css/bootstrap-theme.css
+css/bootstrap-theme.css.map
+
+# Scripts
+scripts/bootstrap.js
+
+
 # Distribution / packaging
 .Python
 env/

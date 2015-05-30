@@ -1,0 +1,51 @@
+/*html {*/
+/*-wekit-box-sizing: border-box;*/
+/*-moz-box-sizing: border-box;*/
+/*-ms-box-sizing: border-box;*/
+/*box-sizing: border-box;*/
+/*}*/
+
+/**, *:before, *:after {*/
+/*box-sizing: inherit;*/
+/*}*/
+
+* {
+    -wekit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    outline: 1px solid blue !important;
+}
+
+body {
+    /*color: grey;*/
+    font-family: 'Libre Baskerville', serif;
+    min-width: 100px;
+}
+
+#app {
+    display: -webkit-flex;
+    display: flex;
+}
+
+#image {
+    width: 50%;
+    height: 50%;
+    min-width: 100px;
+    max-width: 340px;
+}
+
+#description {
+    width: 50%;
+    height: 50%;
+    max-width: 450px;
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+        display: none;
+    }
+}
