@@ -5,6 +5,9 @@ __pycache__/
 # C extensions
 *.so
 
+# unncessary images
+images/originals
+
 # CSS files
 css/bootstrap.css
 css/bootstrap.css.map
