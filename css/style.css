@@ -5,15 +5,8 @@
     box-sizing: border-box;
 }
 
-/** {*/
-    /*outline: 1px solid #7bb6ff !important;*/
-/*}*/
-
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    /*min-width: 100px;*/
-    color: #494949;
-    font-weight: 300;
+    font: normal normal normal 1.5em/140% "Roboto Condensed", sans-serif;
 }
 
 hr {
@@ -25,7 +18,7 @@ hr {
 }
 
 .text-muted {
-    color: #BCBBBB;
+    color: #bcbbbb;
 }
 
 .text-thin {
@@ -42,5 +35,3 @@ hr {
     max-width: 100px;
     max-height: 100px;
 }
-
-

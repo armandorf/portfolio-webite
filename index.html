@@ -10,75 +10,89 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:100,400" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:100,400"
+          rel="stylesheet" type="text/css">
 
     <script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <img class="img-responsive title-logo"
-                                   src="images/pf-logo.jpg"
-                                   alt="Pedro Flores logo" width="100" height="100">
+    <header>
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-responsive title-logo"
+                    src="images/pf-logo.jpg"
+                    alt="Pedro Flores logo" width="100" height="100">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="title-super">Pedro Flores</h1>
+                <h4 class="text-thin">Software Engineer</h4>
+            </div>
         </div>
-        <div class="col-md-6 text-right text-uppercase">
-            <h1 class="title-super">Pedro Flores</h1>
-            <h4 class="text-thin">Software Engineer</h4>
+        <!--horizontal rule-->
+        <div class="row">
+            <div class="col-md-12">
+                <hr class="">
+            </div>
         </div>
-    </div>
-    <!--horizontal rule-->
-    <div class="row">
-        <div class="col-md-12">
-            <hr class="">
+        <!--main image banner-->
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive"
+                     src="images/computer-notepad-photo.jpg"
+                     alt="Photography of a computer and notepad">
+            </div>
         </div>
-    </div>
-    <!--main image banner-->
-    <div class="row">
-        <div class="col-md-12">
-            <img class="img-responsive" src="images/computer-notepad-photo.jpg"
-                    alt="Photography of a computer and notepad">
-        </div>
-    </div>
-    <!--Featured work h2 tag section-->
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Featured Work</h2>
-        </div>
-    </div>
-    <!--3 boxes for the three projects listed here-->
-    <div class="row text-center">
-        <!--dizzy phone-->
-        <div class="col-md-4">
-            <a target="_blank" href="https://github.com/armandorf/dizzy-phone">
-                <img class="img-responsive" src="images/dizzy-phone-screenshot.jpg"
-                     alt="Dizzy Phone iOS app on GitHub">
-                <h3 class="text-uppercase">Dizzy Phone</h3>
-                <p>https://github.com/armandorf/dizzy-phone</p>
-            </a>
-        </div>
+    </header>
 
-        <!--personal website-->
-        <div class="col-md-4">
-            <a target="_blank" href="http://pedroflores.me">
-                <img class="img-responsive" src="images/blog-screenshot.jpg"
-                     alt="Screenshot of personal website">
-                <h3 class="text-uppercase">My blog!</h3>
-                <p>http://pedroflores.me</p>
-            </a>
-        </div>
 
-        <!--this project, my porfolio webpage-->
-        <div class="col-md-4">
-            <a target="_blank" href="https://github.com/armandorf/portfolio-website">
-                <img class="img-responsive" src="images/portfolio-website-screenshot.jpg"
-                     alt="Portfolio website GitHub repository">
-                <h3 class="text-uppercase">Portfolio Website</h3>
-                <p>https://github.com/armandorf/portfolio-website</p>
-            </a>
-        </div>
-    </div>
+    <!-- this is the main content of this site, because what matters is to
+        be able to show links to my projects -->
+    <main>
+        <!--Featured work h2 tag section-->
+        <header class="row">
+            <div class="col-md-12">
+                <h2>Featured Work</h2>
+            </div>
+        </header>
+        <!--3 boxes for the three projects listed here-->
+        <article class="row text-center">
+            <!--dizzy phone-->
+            <section class="col-md-4">
+                <a target="_blank"
+                   href="https://github.com/armandorf/dizzy-phone">
+                    <img class="img-responsive"
+                         src="images/dizzy-phone-screenshot.jpg"
+                         alt="Dizzy Phone iOS app on GitHub">
+                    <h3 class="text-uppercase">Dizzy Phone</h3>
+                    <p>https://github.com/armandorf/dizzy-phone</p>
+                </a>
+            </section>
+
+            <!--personal website-->
+            <section class="col-md-4">
+                <a target="_blank" href="http://pedroflores.me">
+                    <img class="img-responsive" src="images/blog-screenshot.jpg"
+                         alt="Screenshot of personal website">
+                    <h3 class="text-uppercase">My blog!</h3>
+                    <p>http://pedroflores.me</p>
+                </a>
+            </section>
+
+            <!--this project, my porfolio webpage-->
+            <section class="col-md-4">
+                <a target="_blank"
+                   href="https://github.com/armandorf/portfolio-website">
+                    <img class="img-responsive"
+                         src="images/portfolio-website-screenshot.jpg"
+                         alt="Portfolio website GitHub repository">
+                    <h3 class="text-uppercase">Portfolio Website</h3>
+                    <p>https://github.com/armandorf/portfolio-website</p>
+                </a>
+            </section>
+        </article>
+    </main>
 </div>
 </body>
 </html>
