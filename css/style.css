@@ -10,11 +10,8 @@ body {
 }
 
 hr {
-    border-color: #b9cebb;
-    border-style: solid none;
-    border-width: 2px 0;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    border: 2px solid #b9cebb;
+    margin: 8px 0px 8px 0px;
 }
 
 .text-muted {
